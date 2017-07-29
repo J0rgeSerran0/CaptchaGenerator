@@ -47,3 +47,8 @@ var captchaProperties = new CaptchaGenerator.CaptchaProperties()
     .WithFontColor(Color.DarkSlateGray)
     .Get();
 ```
+
+## Returned values from the Captcha Generator
+The Captcha Generator will return a tuple with two values **(Tuple<image, string>)**:
+* The Captcha Image
+* The Text of the Captcha Image
